@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  vwordaihome:
+    container_name: vwordaihome
+    image: vwordaihome:0.0.1
+    ports:
+      - "9910:9910"
+    restart: unless-stopped 
