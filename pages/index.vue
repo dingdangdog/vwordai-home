@@ -5,7 +5,11 @@
     <div class="max-w-7xl mx-auto">
       <!-- Hero Section -->
       <div class="flex flex-col items-center text-center mb-4 min-h-screen">
-        <img src="/logo.svg" alt="VwordAi Logo" class="w-24 h-24 md:w-36 md:h-36 mb-4" />
+        <img
+          src="/logo.svg"
+          alt="VwordAi Logo"
+          class="w-24 h-24 md:w-36 md:h-36 mb-4"
+        />
         <h1 class="text-5xl font-bold mb-4 text-blue-800">
           文声AI
           <span class="text-3xl font-normal text-blue-700">(VwordAi)</span>
@@ -220,6 +224,93 @@
             <p class="text-blue-800">可针对不同的文本内容配置不同的语音参数</p>
           </div> -->
         </div>
+      </div>
+      <div class="mb-20">
+        <h2 class="text-3xl font-bold mb-10 text-center text-blue-900">
+          其他功能
+        </h2>
+        <div
+          class="bg-white bg-opacity-60 backdrop-blur-sm p-6 rounded-xl border border-blue-300 shadow-md flex"
+        >
+          <div class="flex flex-col flex-1 items-center justify-center">
+            <div
+              class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4 text-white"
+            >
+              <span class="text-2xl font-bold">B</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-blue-900">
+              B站直播弹幕助手
+            </h3>
+            <p class="text-blue-800 text-center">
+              自动记录直播间弹幕、礼物，自动语音阅读弹幕、感谢礼物！
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="/blive.jpg" class="max-w-96" alt="B站直播弹幕助手" />
+          </div>
+        </div>
+
+        <!-- <div
+            class="bg-white bg-opacity-60 backdrop-blur-sm p-6 rounded-xl border border-blue-300 shadow-md"
+          >
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4 text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold mb-2 text-blue-900">
+                多服务商支持
+              </h3>
+            </div>
+            <p class="text-blue-800">
+              集成多种 TTS 服务，包括 Microsoft Azure、阿里云、腾讯云、百度云等
+            </p>
+          </div>
+
+          <div
+            class="bg-white bg-opacity-60 backdrop-blur-sm p-6 rounded-xl border border-blue-300 shadow-md"
+          >
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-4 text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold mb-2 text-blue-900">
+                自有密钥使用
+              </h3>
+            </div>
+            <p class="text-blue-800">
+              使用您自己的第三方服务密钥，所有功能完全免费
+            </p>
+          </div> -->
       </div>
 
       <!-- Supported Services -->
